@@ -9,21 +9,6 @@ function MM_preloadImages() { //v3.0
     var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
     if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
 }
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
-
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
 </script>
 <style type="text/css">
 .css1 {
@@ -38,13 +23,13 @@ function MM_swapImage() { //v3.0
 }
 </style></head>
 
-<body onload="MM_preloadImages('201706141522303388722220480.JPG')">
+<body>
 <p class="css1">中山校区</p>
 <p class="css2"> 广东药科大学中山校区，座落在伟人孙中山故里中山市风景如画的五桂山风景区，自然环境得天独厚。校区占地面积2000亩，环境优美，功能齐备。学校紧密结合区域产业发展需求，在该校区重点发展医药化工、食品工程等学科，是学校培养医药相关专业人才的校区。校区设有食品科学学院、医药化工学院、医药商学院等，开设有药事管理、中药学、中药资源与开发、食品质量与安全、食品科学与工程、医药化工、医药贸易、医药信息工程等多个专业及专业方向。<br />
   <br />
   通讯地址：广东省中山市五桂山镇长命水大道9-13号<br />
 邮政编码：528458</p>
 <p>&nbsp;</p>
-<p><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image1','','201706141522303388722220480.JPG',1)"><img src="2017061415222918211807968864.JPG" width="1141" height="763" id="Image1" /></a></p>
+<p><img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1527048119555&amp;di=fc0ffec0b4f864a9d517bbc8a1308f57&amp;imgtype=0&amp;src=http%3A%2F%2Fp2.qhmsg.com%2Ft01268ef2d639fc8f7f.jpg" alt="" width="882" height="612" id="currentImg" title="点击查看源网页" onload="alog &amp;&amp; alog('speed.set', 'c_firstPageComplete', +new Date); alog.fire &amp;&amp; alog.fire('mark');" log-rightclick="p=5.102" /></p>
 </body>
 </html>
